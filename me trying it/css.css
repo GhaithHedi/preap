@@ -1,0 +1,110 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+    }
+    
+    .panel {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 24px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    
+    .panel header {
+        margin-bottom: 16px;
+    }
+    
+    .panel header h2 {
+        font-size: 32px;
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .content {
+        margin-top: 16px;
+    }
+    
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+    
+    .links {
+        list-style-type: none;
+        margin: 0;
+        padding: 0
+    }
+    /* Style for the panel container */
+    
+    .panel-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    /* Style for the panel header */
+    
+    .panel-header {
+        background-color: #006666;
+        color: #fff;
+        padding: 20px;
+    }
+    /* Style for the panel title */
+    
+    .panel-title {
+        margin: 0;
+        font-size: 24px;
+    }
+    /* Style for the panel body */
+    
+    .panel-body {
+        padding: 20px;
+    }
+    /* Style for the panel link list */
+    
+    .panel-link-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    /* Style for the panel links */
+    
+    .panel-link-list li a {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    /* Style for active panel */
+    
+    .panel.active {
+        display: block;
+    }
+    /* Style for inactive panel */
+    
+    .panel.inactive {
+        display: none;
+    }
+    /* Style for active panel header */
+    
+    .panel.active .panel-header {
+        background-color: #0099cc;
+    }
+    /* Style for active panel title */
+    
+    .panel.active .panel-title {
+        color: #fff;
+    }
+    /* Style for active panel link */
+    
+    .panel-link-list li a.active {
+        background-color: #fff;
+        color: #0099cc;
+    }
+    /* Style for active panel link on hover */
+    
+    .panel-link-list li a.active:hover {
+        background-color: #f5f5f5;
+    }
